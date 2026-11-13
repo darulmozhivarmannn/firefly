@@ -12,7 +12,7 @@ client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 MODEL = os.environ.get(
     "CLAUDE_MODEL",
-    "claude-sonnet-4-5"
+    "claude-sonnet-5-5"
 )
 
 MAX_IMAGE_BYTES = 8 * 1024 * 1024
